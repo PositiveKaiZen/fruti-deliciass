@@ -1,55 +1,125 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>fruti deliciass Carta</title>
+    <title>Fruti Deliciass - Carta</title>
+    <style>
+        /* Estilo general del cuerpo */
+        body {
+            background-color: #F5E3FF; /* Fondo en tono fucsia claro */
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #4B0082; /* Color fucsia oscuro para el texto */
+        }
+
+        /* Estilo para enlaces */
+        a {
+            text-decoration: none;
+            color: #8A2BE2; /* Color morado para los enlaces */
+            font-size: 1.2rem;
+            margin: 15px;
+            display: inline-block;
+        }
+
+        a:hover {
+            color: #D500F9; /* Cambio de color al pasar el mouse */
+        }
+
+        /* Estilo para el encabezado */
+        h1 {
+            text-align: center;
+            color: #8A2BE2; /* Color morado para el título */
+            margin-top: 30px;
+            font-size: 3rem;
+        }
+
+        h2 {
+            color: #D500F9; /* Un fucsia brillante para los subtítulos */
+            text-align: center;
+            margin-top: 40px;
+            font-size: 2rem;
+        }
+
+        /* Estilo para las imágenes */
+        img {
+            display: block;
+            margin: 20px auto;
+            width: 200px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Estilo para los párrafos */
+        p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            text-align: center;
+            margin: 10px auto;
+            width: 80%;
+        }
+
+        /* Contenedor general de contenido */
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Estilo para separar secciones */
+        .section {
+            margin-top: 40px;
+        }
+    </style>
 </head>
 
 <body>
-    <a href="index.html">ir a inicio</a>
-    <h1>fruti deliciass Carta</h1>
-    <a href="#donas"><i>donas personalizadas</i></a>
-    <a href="#waffles"><i>waffles</i></a>
-    <a href="#popcackes"><i>popcackes</i></a>
+    <div class="container">
+        <a href="index.html">Ir a inicio</a>
+        <h1>Fruti Deliciass - Carta</h1>
+        <div class="section">
+            <a href="#donas"><i>Donas Personalizadas</i></a>
+            <a href="#waffles"><i>Waffles</i></a>
+            <a href="#popcackes"><i>Popcackes</i></a>
+        </div>
 
-    <br>
+        <div id="donas" class="section">
+            <h2><i>Donas Personalizadas</i></h2>
+            <img src="fotoparacartadonas" alt="Donas personalizadas">
+            <p><strong>Ingredientes a elección:</strong></p>
+            <ul>
+                <li>Chocolate</li>
+                <li>Manjar</li>
+                <li>Mermelada</li>
+                <li>Crema pastelera</li>
+                <li>Nutella</li>
+                <li>Leche condensada</li>
+                <li>Chocolate blanco</li>
+                <li>Frutos secos</li>
+            </ul>
+        </div>
 
-    <h2 id="donas"><i>donas personalizadas</i></h2>
-    <img src="fotoparacartadonas" width="200">
-    <p>°ingredientes a eleccion:</p>
-    <p>chocolate</p>
-    <p>manjar</p>
-    <p>mermelada</p>
-    <p>crema pastelera</p>
-    <p>nutella</p>
-    <p>leche condensada</p>
-    <p>chocolate blanco</p>
-    <p>frutos secos</p>
-
-    <h2 id="waffles"><i>waffles</i></h2>
-    <img src="fotowaffles" width="200">
-    <p>°bases a eleccion:</p>
-    <p>manjar</p>
-    <p>nutella</p>
-    <p>salsa de chocolate</p>
-    <p>salsa de frambuesa</p>
-    <p>salsa de caramelo</p>
-    <p>mermelada</p>
-    <p>frutas a eleccion:</p>
-    <h2 id="popcackes"><i>popcackes</i></h2>
-    <img src="fotodepopcackes" width="200">
-    <p>°tipos de popcackes:</p>
-    <p>oreo</p>
-    <p>queque</p>
-    <p>con salsas a eleccion:</p>
-    <p>nutella</p>
-    <p>manjar</p>
-    <p>leche condensada</p>
-    <p>mermelada</p>
-    <p>°coberturas:</p>
-    <p>chocolate blanco y negro</p>
-</body>
-
-</html>
+        <div id="waffles" class="section">
+            <h2><i>Waffles</i></h2>
+            <img src="fotowaffles" alt="Waffles">
+            <p><strong>Bases a elección:</stro
+            <ul>
+                    <li>Manjar</li>
+                    <li>Mermelada</li>
+                    <li>Nutella</li>
+                    <li>Leche condensada</li>
+             </ul>
+        </div> 
+        <div id="Popcackes" class="section">
+            <h2><i>Popcackes</i></h2>
+            <img src="" alt="Popcackes">
+            <p><strong>Bases a elección:</stro
+            <ul>
+                    <li>Manjar</li>
+                    <li>Mermelada</li>
+                    <li>Nutella</li>
+                    <li>Leche condensada</li>
+             </ul>
+        </div>

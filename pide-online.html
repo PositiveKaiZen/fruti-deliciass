@@ -1,38 +1,147 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Haz tu compra aqui</title>
-</head>
-<body style="background-color: antiquewhite;">
-    <a href="index.html">volver al inicio</a>
-<h2><i><b>Escoje tu base</b></i></h2>
-<p><i><u>Waffles o Mini Donas</u></i></p>
-<p>6 unidades- 1 topping - 1 salsa $2,000</p>
-<p>12 unidades- 2 topping - 2 salsa $3,500</p>
+    <title>Haz tu compra aquí</title>
+    <style>
+        /* Estilos generales del cuerpo */
+        body {
+            background-color: #FCE4EC; /* Rosa pastel claro */
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #880E4F; /* Rosa más oscuro para el texto */
+        }
 
-<img src="foto para pedidos.png" width="200">
-<br>
-<i><b>agrega crema chantilly por solo $500 </b></i>
-<h3><i><u>Bandejas</u></i></h3>
-<p>15 mini donas normales $2,500</p>
-<p>15 mini donas rellenas $3,500</p>
-<p>Brocheta de 3 donas $500</p> 
-<br>
-<img src="segundafotopedidos.png" width="200">
-<h4><b><i><u>Salsas</u></i></b></h4>
-<p>❥Salsa de manjar</p>
-<p>❥Salsa de caramelo</p>
-<p>❥Salsa de frambuesa</p>
-<p>❥Salsa de chocolate</p>
-<p>❥Mermelada</p>
-<h4><b><i><u>Toppings</u></i></b></h4>
-<p>❥Oreo</p>
-<p>❥Chubis</p>
-<P>❥Frutos secos</P>
-<br>
-<h5><b><i>Retira tu pedido aqui:</i></b></h5>
-<p><u><b>Calle América 1298, San Bernardo.</b></u></p>
+        /* Estilo para los enlaces */
+        a {
+            text-decoration: none;
+            color: #D81B60; /* Rosa vibrante para los enlaces */
+            font-size: 1.2rem;
+            margin: 20px;
+            display: inline-block;
+        }
+
+        a:hover {
+            color: #C2185B; /* Cambio de color al pasar el mouse */
+        }
+
+        /* Estilo para los encabezados */
+        h2, h3, h4, h5 {
+            text-align: center;
+            color: #C2185B; /* Rosa brillante para los encabezados */
+        }
+
+        /* Estilo para los párrafos */
+        p {
+            font-size: 1rem;
+            line-height: 1.6;
+            text-align: center;
+            margin: 15px 0;
+            font-weight: bold;
+        }
+
+        /* Estilo para imágenes */
+        img {
+            display: block;
+            margin: 20px auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Estilo de lista para opciones */
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        ul li {
+            font-size: 1rem;
+            text-align: center;
+            margin: 10px 0;
+        }
+
+        /* Estilo para contenedores de sección */
+        .section {
+            padding: 20px;
+            margin: 30px 0;
+            background-color: #F8BBD0; /* Rosa pastel para las secciones */
+            border-radius: 10px;
+        }
+
+        .section h3, .section h4 {
+            color: #8E24AA; /* Rosa medio para secciones específicas */
+        }
+
+        /* Contenedor principal */
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Enlace al inicio -->
+        <a href="index.html">Volver al inicio</a>
+
+        <!-- Encabezado principal -->
+        <h2><i><b>Escoje tu base</b></i></h2>
+
+        <!-- Sección de Waffles o Mini Donas -->
+        <div class="section">
+            <p><i><u>Waffles o Mini Donas</u></i></p>
+            <p>6 unidades - 1 topping - 1 salsa: $2,000</p>
+            <p>12 unidades - 2 toppings - 2 salsas: $3,500</p>
+
+            <img src="foto para pedidos.png" alt="Imagen de waffles o mini donas" width="200">
+            <br>
+            <i><b>Agrega crema chantilly por solo $500</b></i>
+        </div>
+
+        <!-- Sección de Bandejas -->
+        <div class="section">
+            <h3><i><u>Bandejas</u></i></h3>
+            <p>15 mini donas normales: $2,500</p>
+            <p>15 mini donas rellenas: $3,500</p>
+            <p>Brocheta de 3 donas: $500</p>
+            <img src="segundafotopedidos.png" alt="Imagen de bandejas de donas" width="200">
+        </div>
+
+        <!-- Sección de Salsas -->
+        <div class="section">
+            <h4><b><i><u>Salsas</u></i></b></h4>
+            <ul>
+                <li>❥ Salsa de manjar</li>
+                <li>❥ Salsa de caramelo</li>
+                <li>❥ Salsa de frambuesa</li>
+                <li>❥ Salsa de chocolate</li>
+                <li>❥ Mermelada</li>
+            </ul>
+        </div>
+
+        <!-- Sección de Toppings -->
+        <div class="section">
+            <h4><b><i><u>Toppings</u></i></b></h4>
+            <ul>
+                <li>❥ Oreo</li>
+                <li>❥ Chubis</li>
+                <li>❥ Frutos secos</li>
+            </ul>
+        </div>
+
+        <!-- Información de Retiro -->
+        <div class="section">
+            <h5><b><i>Retira tu pedido aquí:</i></b></h5>
+            <p><u><b>Calle América 1298, San Bernardo.</b></u></p>
+        </div>
+    </div>
 </body>
+
 </html>
